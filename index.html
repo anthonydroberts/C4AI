@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Connect 4</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	<h1>CONNECT 4 GAME --- COMP4106 A2 --- AROBERTS</h1>
+	<form>
+		Select type of C4 to play:
+		<select id="SelectGameType">
+			<option value="0">Classic</option>
+			<option value="1">Alternative (Dropping)</option>
+		</select>
+	</form>
+	<br>
+	<form>
+		Select play type:
+		<select id="SelectPlayType">
+			<option value="0">Human vs Human</option>
+			<option value="1">Human vs AI</option>
+			<option value="2">AI (dumb) vs AI</option>
+		</select>
+	</form>
+	<br>
+	<button id="initGame">Initiate</button>
+	<br>
+	<br>
+    <table id="board">
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+<script src="c4Game.js"></script>
+</html>
