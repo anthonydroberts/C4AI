@@ -29,13 +29,15 @@
 		Select AI difficulty:
 		<select id="SelectDepth">
 			<option value="6">Medium (6 Depth) (R)</option>
-			<option value="8">Hard (8 Depth)</option>
+			<option value="8">Hard (8 Depth) (Slow)</option>
 			<option value="4">Trivial (4 Depth)</option>
 		</select>
 	</form>
 	<br>
 	<button id="initGame">Start</button>
 	<br>
+	<p id= "currentGame"></p>
+	<p id= "newAIMoveString" style="visibility:hidden">Placeholder</p>
 	<br>
     <table id="board" style="visibility:hidden">
       <tbody>
@@ -96,6 +98,7 @@
       </tbody>
     </table>
 	<p id= "statistics"></p>
+	<p id= "endString" style="visibility:hidden">Placeholder</p>
 </body>
 <script src="c4Game.js"></script>
 </html>
