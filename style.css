@@ -34,3 +34,12 @@ body{
     width: 100%;
     height: 100%;
 }
+
+#ghLink{
+	text-decoration: none;
+	color:white;
+}
+
+#ghLink:hover{
+	color:#ff3c64;
+}

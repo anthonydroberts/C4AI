@@ -513,7 +513,6 @@ function MINVALUE(node, alpha, beta){
 					return v;
 				}
 				beta = Math.min(beta,v);
-				
 			}
 		}
 	}
